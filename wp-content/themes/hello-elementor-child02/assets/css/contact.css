@@ -1,0 +1,454 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --color_text: #171a20;
+}
+
+@font-face {
+    font-family: "Gotham-Light";
+    src: url(/lean_wp/wordpress/wp-content/themes/hello-elementor-child02/assets/fonts/Gotham-Font/Gotham-Font/Gotham-Light.otf);
+}
+
+
+body{
+    font-family: "Gotham-Light", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+
+/* Header */
+.header{
+    width: 100%;
+    height: 56px; 
+    /* background-color: #5c5e62; */
+    /* position: absolute; */
+    /* z-index: 100; */
+}
+
+.navbar-tesla .navbar-brand{
+    padding-left: 50px;
+    margin-right: 69px;
+    font-size: 25px;
+    font-weight: 10;
+    line-height: 32px;
+}
+
+.header .navbar-tesla li>a, li{
+    color: black;
+    padding: 3px 8px;
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 20px;
+}
+
+.header .navbar-tesla li:hover{
+    background-color: rgba(251, 249, 249, 0.2);
+    border-radius: 12px;
+    transition: 0.1s ease-in;
+    
+}
+
+.header .navbar-nav-left{
+    padding-left: 10px;
+}
+
+.header .navbar-nav-right{
+    padding-right: 0px;
+}
+
+
+/*vcontent-contact */
+.container{
+    width: 81.5%; 
+ }
+.content{
+    width: 100%;
+
+}
+
+
+.content-contact{
+    width: 100%;
+    min-height: 60px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 42px;
+}
+
+.content .content-contact .sub-nav{
+    margin-left: 63px;
+}
+
+.content .content-contact h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.content .content-contact ol{
+    list-style: none;
+    display: flex;
+
+}
+
+.content .content-contact ol li{
+    padding: 0;
+    
+}
+
+.content .content-contact ol li a{
+    font-size: 13px;
+    padding: 18px 11px 0px 11px;
+    color: #171a20;
+}
+
+
+/* sales-careers-press */
+.content .sales-careers-press{
+    width: 100%;
+    margin-top: 38px;
+}
+
+.content .sales-careers-press h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #171a20;
+    line-height: 36px;
+}
+
+
+.content .sales-careers-press .org{
+    font-size: 14px;
+    font-weight: 700;
+    color: #5c5e62;
+}
+
+
+.content .sales-careers-press p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #5c5e62;
+    
+    padding: 0px 0px;
+}
+
+.content .sales-careers-press a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000000;
+    
+}
+
+.content .sales-careers-press .vcard{
+    padding: 0px 0px;
+}
+.content .sales-careers-press .vcard1{
+    padding: 10px 0px;
+}
+.content .sales-careers-press .last-colum{
+    padding-left: 7px;
+}
+
+
+.content .sales-careers-press .first-responders{
+    padding-top: 12px;
+}
+
+
+/* form-submit-comment */
+
+.content .form-submit-comment{
+    width: 100%;
+    margin-top: 38px;
+}
+
+.content .form-submit-comment h1{
+    font-size: 16px;
+    font-weight: 700;
+
+}
+
+.content .form-submit-comment p{
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.content .form-submit-comment input{
+    height: 38px;
+    background-color: #f4f4f4;
+    border-radius: 38px;
+    margin-bottom: 18px;
+    border: none;
+}
+
+.content .form-submit-comment select{
+    height: 38px;
+    background-color: #f4f4f4;
+    border-radius: 38px;
+    margin-bottom: 18px;
+    border: none;
+
+}
+
+.content .form-submit-comment textarea{
+    height: 38px;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 15px;
+}
+
+.content .form-submit-comment button{
+    height: 40px;
+    border-radius: 38px;
+    padding: 10px 75px;
+    line-height: 15px;
+    font-size: 12px;
+    border: none;
+   
+}
+
+
+.content .form-submit-comment label{
+    
+    padding: 5px 0px 0px 18px;
+}
+
+
+.content .form-submit-comment .disclaimer{
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+
+#wpcf7-f623-p603-o1 input[type=date], input[type=email], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select {
+    width: 100%;
+    height: 38px;
+    background-color: #f4f4f4;
+    border-radius: 38px;
+    margin-bottom: 26px;
+    border: none;
+}
+
+
+#wpcf7-f623-p603-o1 textarea {
+    height: 127px; 
+    width: 100%;
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    margin-top: -8px;
+    border: none;
+    
+}
+
+
+#wpcf7-f623-p603-o1 label{
+    
+    padding: 5px 0px 2px 18px;
+}
+
+#wpcf7-f623-p603-o1 .fomr-label-mt{
+    margin-top: -28px;
+}
+
+#wpcf7-f623-p603-o1 input[type=submit] {
+    height: 40px;
+    border-radius: 45px;
+    padding: 10px 75px;
+    line-height: 15px;
+    font-size: 12px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 110, 253);
+    font-weight: 700;
+    float: right;
+    margin-top: 16px;
+    margin-right: -4px;
+
+}
+
+#wpcf7-f623-p603-o1 .zip-code-region{
+    margin-top: -2px;
+}
+
+#wpcf7-f623-p603-o1 .disclaimer{
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 10px;
+    padding-right: 0px;
+}
+
+
+/* Worldwide offices*/
+
+.content .worldwide-offices{
+    width: 100%;
+    margin-top: 77px;
+}
+
+
+.content .worldwide-offices h1{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.content .worldwide-offices .card{
+    width: 100%;
+    margin-top:42px;
+    border: none;
+}
+
+.content .worldwide-offices .card img{
+    border-top-left-radius: none !important;
+    border-top-right-radius: none !important;
+}
+
+
+.content .worldwide-offices .card .card-body {
+    padding: 33px 0px 20px 0px;
+}
+
+.content .worldwide-offices .card .card-body h5{
+    font-size: 15px;
+    font-weight: 700;
+    color: #171a20 ;
+}
+
+.content .worldwide-offices .card .card-body p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #5c5e62 ;
+    margin-top: 18px;
+}
+
+.content .worldwide-offices .card .card-body a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+}
+
+.content .worldwide-offices .worldwide-offices-pt{
+    margin-top: 35px;
+}
+.content .worldwide-offices .worldwide-offices-pt1{
+    margin-top: 12px;
+}
+
+.content .worldwide-offices .worldwide-offices-pt2{
+    margin-top: 35px;
+}
+
+
+
+.footer{
+    width: 100%;
+    background-color: #000;
+    /* margin-top: 67px; */
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+
+.footer .footer-left{
+    width: 68.5%;
+    height:382px;
+    margin-top: 47px;
+    border-bottom: 0.01px solid rgb(87, 85, 85);
+    border-right: 0.01px solid rgb(87, 85, 85);
+}
+.footer .footer-left a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #FFF;
+    font-weight: 900;
+}
+
+.footer .footer-left-location{
+    margin-left: -10px;
+}
+
+.footer .footer-left-location img{
+    margin-top: 10px;
+}
+.footer .footer-right{
+    width: 31.5%;
+    border-bottom: 0.01px solid rgb(87, 85, 85);
+    margin-top: 45px;
+    height: 384px;
+}
+
+
+
+
+.footer .footer-right .nav-left{
+    width: 44%;
+}
+
+.footer .footer-right .nav-right{
+    width: 56%;
+}
+
+.footer .footer-right ul{
+    list-style: none;
+    text-align: start;
+    padding-left: 0px;
+}
+
+.footer .footer-right a{
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 13px;
+}
+
+
+
+.footer .social_locale{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+}
+.footer .social_locale a{
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 14px;
+    margin-left: 16px;
+    
+}
+
+.footer .social_locale .footer-copy{
+    width: 48.27%;
+}
+
+.footer .social_locale .footer-icon{
+    width: 49%;
+}
+
+.footer .social_locale .footer-icon a{
+    font-size: 21px;
+    background-color: white;
+    color: #5c5e62;
+    padding: 5px 5px 5px 5px;
+    margin-left: 11px;
+    border-radius: 15px;
+}
+
+
+.our-community .footer{
+    background-color: #000;
+    height: 50px;
+    margin-top: 70px;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: #d0d1d2;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.footer ul li {
+    list-style: none;
+}
